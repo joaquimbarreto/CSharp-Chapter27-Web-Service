@@ -30,7 +30,7 @@ namespace Customers
             this.LastCustomer = new Command(this.Last, 
                 () => { return this.customers.Count > 0 && !this.IsAtEnd; });
 
-            this.customers = DataSource.Customers;
+            // this.customers = DataSource.Customers;
         }
 
         private bool _isAtStart;
